@@ -11,7 +11,7 @@ class Roommate { // 2 roommate qua 2 thời kì :))
     private String name;
     private String university;
 
-    public float getHeight() {
+    public int getHeight() {
         return height;
     }
 
