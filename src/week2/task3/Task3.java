@@ -142,10 +142,11 @@ class LOLgame{ // Game
         this.rank = rank;
     }
 
-    public String login(String user , String pass ){ // dang nhap
-        if(this.user.equals(user)&&this.pass.equals(pass))
+    public void login(String user , String pass ){ // dang nhap
+        if(this.user.equals(user)&&this.pass.equals(pass)) {
             System.out.println(" Access Granted ");
-            System.out.println("Welcome "+ this.ingamename + "\n" + "Rank " +this.rank );
+            System.out.println("Welcome " + this.ingamename + "\n" + "Rank " + this.rank);
+        }
         else System.out.println("Wrong");
     }
 
@@ -162,7 +163,7 @@ class LOLgame{ // Game
                 "Rank " + rank ;
     }
 }
-class Stealer(){ // lớp trộm chó
+class Stealer{ // lớp trộm chó
 	private int age ;  // tuổi
 	private String body ; // ngoại hình
 	private String vehice ; // xe gì
