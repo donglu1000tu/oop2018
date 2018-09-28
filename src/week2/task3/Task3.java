@@ -4,7 +4,7 @@ public class Task3 {
 }
 
 //TODO: khai báo 3 class tương ứng với 3 đối tượng thực tế ở dưới
-public class Roommate { // 2 roommate qua 2 thời kì :))
+class Roommate { // 2 roommate qua 2 thời kì :))
     private float height;
     private int weigh;
     private String face;
@@ -23,7 +23,7 @@ public class Roommate { // 2 roommate qua 2 thời kì :))
         return weigh;
     }
 
-    public void setWeigh(float weigh) {
+    public void setWeigh(int weigh) {
         this.weigh = weigh;
     }
 
@@ -60,12 +60,12 @@ public class Roommate { // 2 roommate qua 2 thời kì :))
         weigh = 60;
     }
 
-    public playgame() { // chơi game
+    public void playgame() { // chơi game
         name = " Just One ";
         face = " Mắt trợn ngược ";
     }
 
-    public theFirstRoommate() { // bạn cùng phòng đầu tiên
+    public void theFirstRoommate() { // bạn cùng phòng đầu tiên
         face = " Round ";
         university = " KTQD ";
         name = " Dũng Chuối";
@@ -73,13 +73,13 @@ public class Roommate { // 2 roommate qua 2 thời kì :))
         weigh = 80;
     }
 
-    public learn() { // hoc
+    public void learn() { // hoc
         if (this.name.equals(" Võ Long ")) {
             face = " Try Hard to A+ ";
         } else face = " Try hard to exploit friends ";
     }
 }
-public class LOLgame{ // Game
+class LOLgame{ // Game
     private String  user ;  // ten dang nhap
     private String  pass ; // password
     private String  ingamename ; // ten trong game
@@ -141,6 +141,7 @@ public class LOLgame{ // Game
     public void setRank(String rank) {
         this.rank = rank;
     }
+
     public String login(String user , String pass ){ // dang nhap
         if(this.user.equals(user)&&this.pass.equals(pass))
             System.out.println(" Access Granted ");
@@ -161,7 +162,7 @@ public class LOLgame{ // Game
                 "Rank " + rank ;
     }
 }
-public class Stealer(){ // lớp trộm chó
+class Stealer(){ // lớp trộm chó
 	private int age ;  // tuổi
 	private String body ; // ngoại hình
 	private String vehice ; // xe gì
