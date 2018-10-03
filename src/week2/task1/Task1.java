@@ -4,7 +4,8 @@ public class Task1 {
 
     public static int gcd(int a, int b) {
         // TODO: Tính ước chung lớn nhất của 2 số a, b
-    	if(b==0) return a ;
+    	
+        if(b==0) return a ;
     	
     	else return gcd(b,a%b) ; // thuat toan Oclit
     }
