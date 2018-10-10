@@ -37,31 +37,31 @@ public class Week3Test {
     @Test
     public void testMinofArray() {
         int[] a = {1, 23, 242, 5, 12, 435, 63, 12, 213, 32, 445, 3232, 4, 4234, 5323, 432};
-        assertEquals(5323, minofArray(a));
+        assertEquals(1, minofArray(a));
     }
 
     @Test
     public void testMinofArray() {
         int[] b = {32, 24, 131, 2, 23, 23, 4643, 52, 32, 34, 23, 2, 34, 2, 3252, 43, 2};
-        assertEquals(4643, minofArray(b));
+        assertEquals(2, minofArray(b));
     }
 
     @Test
     public void testMinofArray() {
         int[] c = {1, 4, 6, 2, 4, 7, 7};
-        assertEquals(7, minofArray(c));
+        assertEquals(1, minofArray(c));
     }
 
     @Test
     public void testMinofArray() {
         int[] d = {2, 4, 6, 8, 9};
-        assertEquals(9, minofArray(d));
+        assertEquals(2, minofArray(d));
     }
 
     @Test
     public void testMinofArray() {
         int[] e = {1, 3, 5, 7, 9, 11};
-        assertEquals(11, minofArray(e));
+        assertEquals(1, minofArray(e));
     }
 
 
