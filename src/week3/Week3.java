@@ -31,8 +31,8 @@ public class Week3 {
         //return null;
         double BMI = weight / (height * height);
         if (BMI < 18.5) return "Thiếu cân";
-        if (BMI >= 18.5 && BMI < 23) return "Bình thường";
-        if (BMI >= 23 && BMI < 25) return "Thừa cân";
+        else if (BMI >= 18.5 && BMI < 23) return "Bình thường";
+        else if (BMI >= 23 && BMI < 25) return "Thừa cân";
         return "Béo phì";
     }
 
