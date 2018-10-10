@@ -13,7 +13,7 @@ public class Week3 {
         // TODO: Tìm giá trị nhỏ nhất của của một mảng số nguyên (kích thước mảng <= 100 phần tử)
         int max = array[0];
         for (int i = 1; i < array.length; i++) {
-            max = max(max, array[i]);
+            if(max<array[i]) max = array[i] ;
         }
         return max;
         //return -1;
