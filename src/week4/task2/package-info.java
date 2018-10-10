@@ -7,6 +7,7 @@
  * @version 0.1
  */
 package week4.task2;
+public class week4{}
 
 class Shape{
 	private String color = "red" ;
@@ -32,11 +33,9 @@ class Shape{
 		this.color = color ;
 		this.filled = filled ;
 	}
-	public boolean isFilled(){
-		return filled ;
-	}
+	
 
-	@java.lang.Override
+	
 	public String toString() {
 		return "Shape{" +
 				"color='" + color + '\'' +
@@ -44,7 +43,7 @@ class Shape{
 				'}';
 	}
 }
-class Circle{
+class Circle extends Shape{
 	private double radius = 1.0 ;
 	public Circle(){}
 	public Circle(double radius , String color , boolean filled){}
@@ -59,14 +58,14 @@ class Circle{
 	public double getarea(){}
 	public double getPerimeter(){}
 
-	@java.lang.Override
-	public java.lang.String toString() {
+	
+	public String toString() {
 		return "Circle{" +
 				"radius=" + radius +
 				'}';
 	}
 }
-class Rectangle{
+class Rectangle extends Shape{
 	private double width = 1.0 ;
 	private double length = 1.0 ;
 
@@ -91,15 +90,15 @@ class Rectangle{
 	public double getarea(){}
 	public double getPerimeter(){}
 
-	@java.lang.Override
-	public java.lang.String toString() {
+	
+	public String toString() {
 		return "Rectangle{" +
 				"width=" + width +
 				", length=" + length +
 				'}';
 	}
 }
-class Square{
+class Square extends Rectangle{
 	public Square(){}
 	public Square(double size){}
 	public Square(double size , String color , boolean filled){}
