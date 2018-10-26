@@ -1,35 +1,36 @@
 package week4.task2;
 
-public class Square extends Rectangle {
-    public Square() {}
+import week5_6.Point;
+import week5_6.Rectangle;
 
-    public Square(double size) {
-        super(size, size);
+public class Square extends Rectangle
+{
+    private int side;
+    public Square(){
+        super();
+        side =0;
+        Point a = super.getTopleft();
+        Point b = new Point();
+        b.setX(a.getX()+side);
+        b.setY(a.getY()-side);
+        super.setBotright(b);
+    }
+    public void MoveTo(Point p){
+        Point b = new Point();
+        b.setX(p.getX()+side);
+        b.setY(p.getY()-side);
+        super.move(p,b);
+    }
+    public void MoveToRandom(){
+        Point a = new Point();
+        a.randommove();
+        Point b = new Point();
+        b.setX(a.getX()+side);
+        b.setY(a.getY()-side);
+        super.move(a, b);
+    }
+    public String toString(){
+        return "Square";
     }
 
-    public Square(double size, String color, boolean filled) {
-        super(size, size, color, filled);
-    }
-    @Override
-    public void setWidth(double size) {
-
-        super.setWidth(size);
-    }
-    @Override
-    public void setLength(double size) {
-        super.setLength(size);
-    }
-
-    public double getSize() {
-        return super.getWidth();
-    }
-
-    public void setSize(double size) {
-        super.setWidth(size);
-        ;
-    }
-    @Override
-    public String toString() {
-        return "Square " + " { " + " size " + getWidth() + " }";
-    }
 }

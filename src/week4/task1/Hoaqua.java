@@ -1,6 +1,8 @@
 package week4.task1;
 
-public class Hoaqua {
+import week5_6.Layer;
+
+public class Hoaqua extends Layer {
     private int cost;
     private String round;
 

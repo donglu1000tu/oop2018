@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="503.0">week4.task1.Tao</node>
+    <node x="1123.0" y="547.0">week4.task2.Circle</node>
+    <node x="245.0" y="514.0">week4.task1.Cam</node>
+    <node x="503.52083333333337" y="79.0">week5_6.Layer</node>
+    <node x="868.5208333333333" y="191.0">week4.task2.Shape</node>
+    <node x="886.0" y="514.0">week5_6.Triangle</node>
+    <node x="55.5" y="881.0">week4.task1.CamThanhPhong</node>
+    <node x="495.02083333333337" y="0.0">week5_6.Diagram</node>
+    <node x="568.0" y="514.0">week4.task2.Rectangle</node>
+    <node x="374.50000000000006" y="870.0">week4.task1.Camsanh</node>
+    <node x="597.5" y="903.5">week4.task2.Square</node>
+    <node x="120.77083333333331" y="158.0">week4.task1.Hoaqua</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="week4.task2.Square" target="week4.task2.Rectangle">
+      <point x="0.0" y="-103.0" />
+      <point x="0.0" y="147.5" />
+    </edge>
+    <edge source="week4.task2.Rectangle" target="week4.task2.Shape">
+      <point x="0.0" y="-147.5" />
+      <point x="717.0" y="478.0" />
+      <point x="900.5208333333333" y="478.0" />
+      <point x="-64.0" y="114.5" />
+    </edge>
+    <edge source="week4.task1.Tao" target="week4.task1.Hoaqua">
+      <point x="0.0" y="-158.5" />
+      <point x="112.5" y="478.0" />
+      <point x="166.77083333333331" y="478.0" />
+      <point x="-46.0" y="147.5" />
+    </edge>
+    <edge source="week4.task2.Circle" target="week4.task2.Shape">
+      <point x="0.0" y="-114.5" />
+      <point x="1239.5" y="478.0" />
+      <point x="1028.5208333333333" y="478.0" />
+      <point x="64.0" y="114.5" />
+    </edge>
+    <edge source="week4.task1.Hoaqua" target="week5_6.Layer">
+      <point x="0.0" y="-147.5" />
+      <point x="212.77083333333331" y="133.0" />
+      <point x="522.5208333333334" y="133.0" />
+      <point x="-19.0" y="14.5" />
+    </edge>
+    <edge source="week5_6.Layer" target="week5_6.Diagram">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="week4.task1.CamThanhPhong" target="week4.task1.Cam">
+      <point x="-5.6843418860808015E-14" y="-125.5" />
+      <point x="204.99999999999994" y="845.0" />
+      <point x="292.75" y="845.0" />
+      <point x="-47.75" y="147.5" />
+    </edge>
+    <edge source="week4.task2.Shape" target="week5_6.Layer">
+      <point x="0.0" y="-114.5" />
+      <point x="964.5208333333333" y="133.0" />
+      <point x="560.5208333333334" y="133.0" />
+      <point x="19.0" y="14.5" />
+    </edge>
+    <edge source="week5_6.Triangle" target="week4.task2.Shape">
+      <point x="0.0" y="-147.5" />
+      <point x="994.5" y="478.0" />
+      <point x="964.5208333333333" y="478.0" />
+      <point x="0.0" y="114.5" />
+    </edge>
+    <edge source="week4.task1.Cam" target="week4.task1.Hoaqua">
+      <point x="0.0" y="-147.5" />
+      <point x="340.5" y="478.0" />
+      <point x="258.7708333333333" y="478.0" />
+      <point x="46.0" y="147.5" />
+    </edge>
+    <edge source="week4.task1.Camsanh" target="week4.task1.Cam">
+      <point x="0.0" y="-136.5" />
+      <point x="476.00000000000006" y="845.0" />
+      <point x="388.25" y="845.0" />
+      <point x="47.75" y="147.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0150472914875321" x="503.5" y="275.0601440067768" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
