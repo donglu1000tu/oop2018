@@ -8,7 +8,13 @@ public class ExpressionTest {
         Addition d = new Addition(b, c);
         Square res = new Square(d);
         System.out.println(res.toString() + " = " + res.evaluate());
+
         Division division = new Division(new Numeral(10), new Numeral(0));
+        try{
         System.out.println(division.evaluate());
+        } catch (ArithmeticException e){
+            System.out.println(e.toString());
+        }
+
     }
 }
